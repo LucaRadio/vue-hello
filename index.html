@@ -13,9 +13,9 @@
     <div id="app">
         <div class="container text-center">
             <h1 class="text-success p-4">Vue Introduciton</h1>
-            <h1 :class="classes">{{ titleMain }}</h1>
+            <h2 :class="classes">{{ titleMain }}</h2>
             <img :src="pic">
-            
+            <p :class="classes">Link: {{ pic }}</p>
             <button class="btn btn-primary mt-3 d-block mx-auto" @click="changeImgClick">Cliccami!</button>
         </div>
     </div>

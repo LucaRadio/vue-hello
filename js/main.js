@@ -7,7 +7,7 @@ createApp({
     data() {
         return {
             titleMain: "Hello World!",
-            classes: "text-center text-white",
+            classes: "text-center text-white my-3",
             pic: "https://picsum.photos/id/1/300/300"
         }
     },
